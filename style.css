@@ -1,0 +1,198 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  margin: 0;
+}
+.row1 {
+  height: 50%;
+  width: 100%;
+}
+.row2 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.row3 {
+  height: 100%;
+  width: 75%;
+  display: flex;
+}
+.column1 {
+  height: 100%;
+  width: calc(100% / 3);
+}
+.column2 {
+  height: 100%;
+  width: calc(100% / 3);
+  display: block;
+}
+.column3 {
+  height: 100%;
+  width: calc(100% / 3);
+}
+.column4 {
+  height: 100%;
+  width: 25%;
+  display: block;
+}
+.box1 {
+  height: 50%;
+  width: 100%;
+}
+.box2 {
+  height: 50%;
+  width: 100%;
+}
+.box3 {
+  height: 50%;
+  width: 100%;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.clickable2 {
+  cursor: pointer;
+}
+
+.clickable {
+  filter: brightness(75%) drop-shadow(2px 8px 3px);
+}
+
+.clickable:hover {
+  cursor: pointer;
+  filter: brightness(100%) drop-shadow(2px 8px 3px);
+}
+
+.clickable:active {
+  filter: drop-shadow(0px 0px 3px);
+  transform: scale(0.98);
+}
+
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.grey {
+  background-color: #57595b;
+}
+.pink {
+  background-color: pink;
+}
+.yellow {
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 800px) {
+  .row1 {
+    height: 25%;
+    width: 100%;
+  }
+  .row2 {
+    height: 75%;
+    width: 100%;
+    display: flex;
+  }
+
+  .row3 {
+    height: 100%;
+    width: 75%;
+    display: block;
+  }
+  .column1 {
+    height: 25%;
+    width: 100%;
+    display: flex;
+  }
+  .column2 {
+    height: 37.5%;
+    width: 100%;
+    display: flex;
+  }
+  .column3 {
+    height: 37.5%;
+    width: 100%;
+    display: flex;
+  }
+  .column4 {
+    height: 100%;
+    width: 25%;
+    display: block;
+  }
+  .box1 {
+    height: 100%;
+    width: 100%;
+  }
+  .box2 {
+    height: 100%;
+    width: 50%;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .row1 {
+    height: 25%;
+    width: 100%;
+  }
+  .row2 {
+    height: 75%;
+    width: 100%;
+    display: flex;
+  }
+  .row3 {
+    height: 100%;
+    width: 75%;
+    display: block;
+  }
+  .column1 {
+    height: 25%;
+    width: 100%;
+  }
+  .column2 {
+    height: calc(75% / 2);
+    width: 100%;
+    display: block;
+  }
+  .column3 {
+    height: calc(75% / 2);
+    width: 100%;
+    display: block;
+  }
+  .column4 {
+    height: 100%;
+    width: 25%;
+    display: block;
+  }
+  .box1 {
+    height: 50%;
+    width: 100%;
+  }
+  .box2 {
+    height: 100%;
+    width: 50%;
+  }
+}

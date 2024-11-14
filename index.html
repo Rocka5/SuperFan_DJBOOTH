@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>DJBOOTH</title>
+  </head>
+  <body>
+    <div class="row1 black center-content">
+      <img onclick="STOP()" id="lights" />
+    </div>
+    <div class="row2">
+      <div class="row3">
+        <div class="column1">
+          <div class="box2 center-content clickable2">
+            <img src="images/switch1.jpg" onclick="changeImg1()" id="switch1" />
+          </div>
+          <div class="box2 center-content grey">
+            <img src="images/STOP.png" class="clickable" onclick="STOP()" id="stop"  />
+          </div>
+        </div>
+        <div class="column2 black">
+          <div class="box1 center-content clickable">
+            <img src="images/block1.jpg" onclick="blueSong()" id="cube1" />
+          </div>
+          <div class="box1 center-content clickable">
+            <img src="images/block2.jpg" onclick="redSong()" id="cube2" />
+          </div>
+        </div>
+        <div class="column3 black">
+          <div class="box1 center-content clickable">
+            <img src="images/block3.jpg" onclick="greenSong()" id="cube3" />
+          </div>
+          <div class="box1 center-content clickable">
+            <img src="images/block4.jpg" onclick="yellowSong()" id="cube4" />
+          </div>
+        </div>
+      </div>
+      <div class="column4 grey">
+        <div class="box3 center-content clickable">
+          <img src="images/volume+.PNG" onclick="volumeUp()" id="louder" />
+        </div>
+        <div class="box3 center-content clickable">
+          <img src="images/volume-.PNG" onclick="volumeDown()" id="quieter" />
+        </div>
+      </div>
+    <audio id="song1">
+      <source src="sounds/blood_code.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="song2">
+      <source src="sounds/did_i_stutter.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="song3">
+      <source src="sounds/fighting_my_demons.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="song4">
+      <source src="sounds/zeze.mp3" type="audio/mp3" />
+    </audio>
+    <script src="script.js"></script>
+  </body>
+</html>
